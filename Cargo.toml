@@ -1,0 +1,16 @@
+[package]
+name = "lznt1"
+description = "A pure Rust implementation of the LZNT1 decompression algorithm used by Windows."
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+thiserror = { version = "2", default-features = false }
+
+[dev-dependencies]
+criterion = "0.8"
+
+[[bench]]
+name = "bench_main"
+harness = false
