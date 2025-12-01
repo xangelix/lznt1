@@ -1,6 +1,6 @@
 [package]
 name = "lznt1"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 description = "A pure Rust implementation of the LZNT1 compression algorithm used by Windows."
 authors = ["Cody Wyatt Neiman (xangelix) <neiman@cody.to>"]
