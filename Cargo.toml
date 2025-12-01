@@ -3,7 +3,7 @@ name = "lznt1"
 description = "A pure Rust implementation of the LZNT1 compression algorithm used by Windows."
 keywords = ["lznt1", "compression", "decompression", "ntfs", "windows"]
 categories = ["compression", "encoding", "filesystem", "no-std", "algorithms"]
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 license = "MIT"
 
