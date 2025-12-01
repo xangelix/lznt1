@@ -1,11 +1,14 @@
 [package]
 name = "lznt1"
-description = "A pure Rust implementation of the LZNT1 compression algorithm used by Windows."
-keywords = ["lznt1", "compression", "decompression", "ntfs", "windows"]
-categories = ["compression", "encoding", "filesystem", "no-std", "algorithms"]
 version = "0.1.2"
 edition = "2024"
+description = "A pure Rust implementation of the LZNT1 compression algorithm used by Windows."
+authors = ["Cody Wyatt Neiman (xangelix) <neiman@cody.to>"]
+categories = ["compression", "encoding", "filesystem", "no-std", "algorithms"]
+keywords = ["lznt1", "compression", "decompression", "ntfs", "windows"]
 license = "MIT"
+repository = "https://github.com/xangelix/lznt1"
+documentation = "https://docs.rs/lznt1"
 
 [dependencies]
 thiserror = { version = "2", default-features = false }
