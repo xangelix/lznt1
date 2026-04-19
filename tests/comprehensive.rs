@@ -257,7 +257,7 @@ fn t21_decompress_unexpected_eof_header() {
 /// Test: Header claims size larger than available input.
 #[test]
 fn t22_decompress_input_too_short_header() {
-    let header = HEADER_COMPRESSED | 99; // Size 100
+    let header = HEADER_COMPRESSED | 0b110_0011; // Size 100
     let data = header.to_le_bytes();
     let mut out = Vec::new();
     assert_eq!(
